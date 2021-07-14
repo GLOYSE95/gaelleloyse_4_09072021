@@ -10,6 +10,7 @@ body {
 h1 {
     font-size: 42px;
     font-family: "helvetica";
+    text-shadow: 0 0 5px #000000;
 }
 
 p {
@@ -34,6 +35,10 @@ h3 {
 .h2textcenter { 
     margin-bottom: 20px;
 }
+.tc-white {
+    color: #fcceb9;;
+}
+
 .tc-whiteh2 { 
     color:white;
     position : relative;
@@ -76,6 +81,10 @@ button {
     outline: none!important;
     color :rgba(0, 0, 0, .05)
 }
+a, button {
+    transition: all .3s ease-in-out;
+    outline: none!important;
+}
 
 a:hover {
     text-decoration: none;
@@ -89,6 +98,7 @@ a:hover {
 }
 blockquote {
     padding-top: 30px;
+    border-left: none;
 }
 .row {
     margin-right: 15px;
@@ -480,7 +490,6 @@ a[data-lightbox]:hover img {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px;
     font-size: 16px;
@@ -539,13 +548,9 @@ a[data-lightbox]:hover img {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
-
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #44362e;
 }
 
 .btn-atomic-tangerine:hover {
