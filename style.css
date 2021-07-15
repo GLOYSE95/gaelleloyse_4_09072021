@@ -498,7 +498,7 @@ a[data-lightbox]:hover img {
 
 /* taille img portfollio*/
 img.img-responsive.portfolio-thumb {
-    width : 270px
+    width : 270px; height: 270px;
 }
 
 .portfolio-row {
@@ -651,7 +651,7 @@ img.img-responsive.portfolio-thumb {
         margin-left: 10px;
     }
     img.img-responsive.portfolio-thumb {
-        width : 100%;
+        width : 100%; height: 100%;
     }
     
     .navbar {
@@ -798,7 +798,7 @@ img.img-responsive.portfolio-thumb {
         margin-top: 0;
     }
     img.img-responsive.portfolio-thumb {
-        width : 100%
+        width : 100%; height: 100%;
     }
     
     .black-background {
