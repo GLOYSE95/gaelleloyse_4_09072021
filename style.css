@@ -59,7 +59,9 @@ h3 {
     float: left;
     z-index: 3;
 }
-
+.navbar__header a img{
+    height: 40px; width: auto;
+}
 .navbarContact {
     float: right;
     font-weight: 600;
@@ -73,7 +75,7 @@ ul {
     line-height: 50px;
 }
 .center-block {
-    width: 100px;
+    width: 100px; height: auto;
 }
 
 button {
