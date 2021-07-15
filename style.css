@@ -74,7 +74,7 @@ ul {
     font-size: 18px;
     line-height: 50px;
 }
-img .center-block {
+.col-sm-12 img {
     width: 100px; height: auto;
 }
 
