@@ -496,46 +496,9 @@ a[data-lightbox]:hover img {
     font-weight: 700;
 }
 
-.social {
-    display : flex;
-    justify-content: center;
-    max-width: 400px;
-    margin: auto;
-    margin-top: 20px;
-    padding-left: 0;
-}
-
-.social li {
-    padding : 0 40px;
-}
-.social li a{
-    color : white;
-}
-
-.med-width-whitespace {
-    margin: auto;
-    box-shadow: 0px 0px 0px #000000;
-}
-
-
-.icons {
-    margin-bottom: 14px;
-    margin-top: 24px;
-}
-
-.white {
-    color: #FFFFFF!important;
-}
-.whitesocial {
-    font-size: 20px;
-    color: #333;
-}
-.whitesocial--big {
-    font-size: 24px; 
-}
-
-.portfolio-thumb {
-    margin-bottom: 24px;
+/* taille img portfollio*/
+img.img-responsive.portfolio-thumb {
+    width : 270px
 }
 
 .portfolio-row {
@@ -543,6 +506,9 @@ a[data-lightbox]:hover img {
     margin-top: 50px;
 }
 
+.portfolio-thumb {
+    margin-bottom: 24px;
+}
 .black-background {
     background-color: rgba(85, 76, 52, 0.9);
     padding: 40px;
@@ -592,6 +558,42 @@ a[data-lightbox]:hover img {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+/* partie footer réseaux sociaux*/
+.social {
+    display : flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.social li {
+    padding : 0 40px;
+}
+.social li a{
+    color : white;
+}
+
+.med-width-whitespace {
+    margin: auto;
+    box-shadow: 0px 0px 0px #000000;
+}
+.icons {
+    margin-bottom: 14px;
+    margin-top: 24px;
+}
+.white {
+    color: #FFFFFF!important;
+}
+.whitesocial {
+    font-size: 20px;
+    color: #333;
+}
+.whitesocial--big {
+    font-size: 24px; 
 }
 
 
@@ -648,7 +650,10 @@ a[data-lightbox]:hover img {
         margin-right: 10px;
         margin-left: 10px;
     }
-
+    img.img-responsive.portfolio-thumb {
+        width : 100%;
+    }
+    
     .navbar {
         padding: 30px;
     }
@@ -792,6 +797,10 @@ a[data-lightbox]:hover img {
         margin-bottom: 0;
         margin-top: 0;
     }
+    img.img-responsive.portfolio-thumb {
+        width : 100%
+    }
+    
     .black-background {
         padding: 10px;
     }
