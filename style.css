@@ -18,6 +18,9 @@ a:hover {
     cursor: pointer;
 }
 /*header*/
+.center-block{
+    width: 150px;
+}
 .slogan {
     color: white;
     font-size: 1.7em;
