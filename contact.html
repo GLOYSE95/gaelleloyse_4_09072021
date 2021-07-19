@@ -1,13 +1,11 @@
 <!doctype html>
-<html lang="fr">
+<html lang="Default">
 <head>
     <meta charset="utf-8">
-	<title>Contact, La Chouette Agence Lyon</title>
-    <meta name="description" content="Votre page contact de La Chouette agence, agence de Webdesign basée à Lyon. Vous avez un projet de site internet ou de communication visuelle ? Contactez-nous !">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
-	<meta name="robots" content="nofollow">
-
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -20,6 +18,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
+    <title>page2</title>
 
     
 <!-- Analytics -->
@@ -31,23 +30,32 @@
 <!-- Principal conteneur -->
 <div class="page-container">
     
-<!-- header -->
-<header class="mainHeader">
-
-	<div class="navbar">
-		<div class="navbar__header">
-			<a href="index.html"><img src="img/la-chouette-agence.png" alt="Logo La chouette agence" height="40" /></a>
-		</div>
-		<div class="navbarContact">
-			<ul>
-				<li>
-					<a href="page2.html">Contact</a>
-				</li>
-			</ul>
-		</div>
+<!-- bloc-0 -->
+<div class="bloc bgc-white l-bloc " id="bloc-0">
+	<div class="container bloc-sm">
+		<nav class="navbar row">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+				<ul class="site-navigation nav navbar-nav">
+					<li>
+						<a href="index.html">Accueil</a>
+					</li>
+					<li>
+					</li>
+					<li>
+						<a href="page2.html">page2 &gt;</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</div>
-
-<!-- header END -->
+</div>
+<!-- bloc-0 END -->
 
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
@@ -115,23 +123,46 @@
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
-</div>
 
-<!-- Footer - bloc-8 remplacement de la div en footer-->
-<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<!-- Footer - bloc-8 -->
+<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
+		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white">
-					La chouette agence - Agence web design basée à Lyon.<br>
+					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
-				<ul class="social">
-					<li><a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a></li>
-					<li><a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a></li>
-					<li><a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a></li>
-				</ul>
-			</div>	
+				<div class="row row-no-gutters social">
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-</footer>
+</div>
+<!-- Footer - bloc-8 END -->
+
+</div>
+<!-- Principal conteneur END -->
+    
 
 </body>
 </html>
