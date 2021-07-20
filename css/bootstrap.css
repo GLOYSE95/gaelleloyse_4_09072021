@@ -7,28 +7,26 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
+    font-size: 10px;
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
+
 body {
-    margin: 0
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff
 }
 
 article, aside, details, figcaption, figure, footer, header,
 hgroup, main, menu, nav, section, summary {
     display: block
-}
-
-audio, canvas, progress, video {
-    display: inline-block;
-    vertical-align: baseline
-}
-
-audio:not([controls]) {
-    display: none;
-    height: 0
 }
 
 [hidden],
@@ -37,78 +35,81 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent; color: #337ab7;
+    text-decoration: none
+}
+
+a:focus, a:hover {
+    text-decoration: underline
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
 }
 
 a:active, a:hover {
     outline: 0
 }
-
-abbr[title] {
-    border-bottom: 1px dotted
-}
-
 b, strong {
-    font-weight: 700
-}
-
-dfn {
-    font-style: italic
-}
+    font-weight: 700}
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
+    font-size: 36px;
+}
+h1, h2, h3 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+h2 {
+    font-size: 30px
+}
+h2, h3, p {
+    orphans: 3;
+    widows: 3
+}
+
+h3 {
+    font-size: 24px
+}
+
+p {
+    margin: 0 0 10px
 }
 
 mark {
     color: #000;
 }
-
 small {
     font-size: 80%
 }
-
-sub, sup {
-    position: relative;
-    font-size: 75%;
-    line-height: 0;
-    vertical-align: baseline
-}
-
-sup {
-    top: -.5em;
-    bottom: -.25em
-}
-
 img {
-    border: 0
+    border: 0;
+    max-width: 100% !important;
+    vertical-align: middle
 }
-
 svg:not(:root) {
     overflow: hidden
 }
-
 figure {
-    margin: 1em 40px
-}
-
-hr {
-    height: 0;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box
+    margin: 1em 40px;
+    margin: 0
 }
 
 pre {
     overflow: auto
 }
-
-code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 1em
-}
-
 button, input, optgroup, select, textarea {
     margin: 0;
     font: inherit;
@@ -214,18 +215,9 @@ td,th {
         display: table-header-group
     }
     img, tr {
-        page-break-inside: avoid
+        page-break-inside: avoid;
     }
-    img {
-        max-width: 100% !important
-    }
-    h2, h3, p {
-        orphans: 3;
-        widows: 3
-    }
-    h2, h3 {
-        page-break-after: avoid
-    }
+
     .navbar {
         display: none
     }
@@ -257,48 +249,12 @@ td,th {
     -moz-box-sizing: border-box;
     box-sizing: border-box
 }
-
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-}
-
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
-}
-
 button, input, select, textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit
 }
 
-a {
-    color: #337ab7;
-    text-decoration: none
-}
-
-a:focus, a:hover {
-    text-decoration: underline
-}
-
-a:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
-}
-
-figure {
-    margin: 0
-}
-
-img {
-    vertical-align: middle
-}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img,.img-responsive,.thumbnail a>img,
 .thumbnail>img {
@@ -336,56 +292,8 @@ hr {
     border-top: 1px solid #eee
 }
 
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
-}
-
-.sr-only-focusable:active, .sr-only-focusable:focus {
-    position: static;
-    width: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    clip: auto
-}
-
 [role=button] {
     cursor: pointer
-}
-
-h1, h2, h3 {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
-    color: inherit
-}
-
-h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
-}
-
-h1 {
-    font-size: 36px
-}
-
-h2 {
-    font-size: 30px
-}
-
-h3 {
-    font-size: 24px
-}
-
-p {
-    margin: 0 0 10px
 }
 
 .lead {
