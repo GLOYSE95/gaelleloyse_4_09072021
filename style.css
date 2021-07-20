@@ -56,7 +56,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -477,10 +477,6 @@ button {
     outline: none!important;
 }
 
-.btn-rd {
-    border-radius: 40px;
-}
-
 .btn-clean {
     border: 1px solid rgba(0, 0, 0, .08);
     border-bottom-color: rgba(0, 0, 0, .1);
@@ -532,6 +528,7 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+    opacity : 1;
 }
 
 .scrollToTop span {
@@ -659,17 +656,16 @@ p.lightbox-caption {
 p {
     color: #333;
     font-size: 16px;
+    font-family: "helvetica";
 }
-h2,
-h3,
-label,
-.btn,
-a {
+h2, h3, label, .btn, a {
     font-family: "helvetica";
     font-weight: 600;
     color: #333;
 }
-
+.h2__form {
+    margin-left: 15px;
+}
 .container {
     max-width: 1000px;
 }
@@ -695,6 +691,7 @@ a {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto;
+    letter-spacing: 0.02em;
 }
 
 .h1 {
@@ -795,7 +792,7 @@ blockquote p {
 }
 
 .tc-white {
-    color: #fcceb9;
+    color: white;
 }
 .tc-whiteh2 {
     color: white;
@@ -805,6 +802,8 @@ blockquote p {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    margin : auto;
+    margin-top: 50px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -843,7 +842,11 @@ blockquote p {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
-
+.bloc-sm__footer {
+    margin : auto;
+    width : 100%;
+    text-align: center;
+}
 .whitesocial--big { 
     font-size : 24px;
     font-weight : 600;
@@ -851,6 +854,9 @@ blockquote p {
 }
 .whitesocial {
     font-size: 20px;
+}
+ul {
+    list-style-type : none;
 }
 
 @media (max-width: 1024px) {
@@ -1034,6 +1040,7 @@ blockquote p {
     .bloc-lg {
         padding: 40px 0;
     }
+
     .bloc-md {
         padding: 15px;
     }
@@ -1104,16 +1111,12 @@ blockquote p {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .h2__form {
+        margin-left: 10px;
     }
     .whitesocial {
         font-size: 15px;
@@ -1122,8 +1125,9 @@ blockquote p {
         padding: 0 20px;
     }
     .slogan {
-        font-size: 1.2em;
+        font-size: 1.3em;
         line-height: 20px;
+        letter-spacing: 0.04em;
     }
     blockquote p {
         font-size: 14px;
@@ -1131,5 +1135,18 @@ blockquote p {
     }
     .cite {
         font-size: 13px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin : auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
