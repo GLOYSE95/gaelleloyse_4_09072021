@@ -18,7 +18,7 @@ a:hover {
 }
 /*header*/
 .center-block{
-    width: 150px;
+    width: 150px; height: 150px;
 }
 .slogan {
     color: white;
@@ -854,6 +854,16 @@ blockquote p {
 ul {
     list-style-type : none;
 }
+#lightbox-modal .modal-dialog {
+    width: 90%;
+    max-width: 480px;
+    margin: 0 auto 0;
+}
+#lightbox-modal .modal-dialog img {
+    width: 448px;
+    height : 448px;
+    margin: 0 auto;
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1099,13 +1109,11 @@ ul {
         margin: 0 auto 0;
     }
     #lightbox-modal .modal-dialog img {
-        width: 100%;
-        height :auto;
+        width: 335px;
+        height :335px;
         margin: 0 auto;
     }
-}
 
-@media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
@@ -1145,12 +1153,28 @@ ul {
     }
     #lightbox-modal .modal-dialog {
         width: 90%;
-        max-width: 380px;
+        max-width: 310px;
         margin: 0 auto 0;
     }
     #lightbox-modal .modal-dialog img {
-        width: 100%;
-        height :auto;
+        width: 255px;
+        height : 255px;
+        margin: 0 auto 5px;
+    }
+}
+@media (max-width: 281px) {
+    .bloc {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #lightbox-modal .modal-dialog {
+        width: 90%;
+        max-width: 250px;
+        margin: 0 auto 0;
+    }
+    #lightbox-modal .modal-dialog img {
+        width: 210px;
+        height : 210px;
         margin: 0 auto 5px;
     }
 }
