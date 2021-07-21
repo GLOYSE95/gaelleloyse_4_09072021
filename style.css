@@ -687,7 +687,7 @@ h2, h3, label, .btn, a {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     letter-spacing: 0.02em;
 }
@@ -856,13 +856,14 @@ ul {
 }
 #lightbox-modal .modal-dialog {
     width: 90%;
-    max-width: 480px;
+    max-width: 400px;
     margin: 0 auto 0;
 }
 #lightbox-modal .modal-dialog img {
-    width: 448px;
-    height : 448px;
+    width: 100%;
+    height : auto;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 1024px) {
@@ -1102,17 +1103,6 @@ ul {
         margin-top: 10px;
         margin-bottom: 20px;
     }
-    
-    #lightbox-modal .modal-dialog {
-        width: 90%;
-        max-width: 380px;
-        margin: 0 auto 0;
-    }
-    #lightbox-modal .modal-dialog img {
-        width: 335px;
-        height :335px;
-        margin: 0 auto;
-    }
 
     .bloc-mob-center-text {
         text-align: center;
@@ -1140,7 +1130,7 @@ ul {
     }
     .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
         display: block;
-        width: 70%;
+        width: 50%;
         height: auto;
         margin : auto;
     }
@@ -1151,30 +1141,11 @@ ul {
         padding-left: 0;
         padding-right: 0;
     }
-    #lightbox-modal .modal-dialog {
-        width: 90%;
-        max-width: 310px;
-        margin: 0 auto 0;
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin : auto;
     }
-    #lightbox-modal .modal-dialog img {
-        width: 255px;
-        height : 255px;
-        margin: 0 auto 5px;
-    }
-}
-@media (max-width: 281px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    #lightbox-modal .modal-dialog {
-        width: 90%;
-        max-width: 250px;
-        margin: 0 auto 0;
-    }
-    #lightbox-modal .modal-dialog img {
-        width: 210px;
-        height : 210px;
-        margin: 0 auto 5px;
-    }
+
 }
