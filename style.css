@@ -35,7 +35,12 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+/*fond contraste*/
+.background__black {
+    background-color: #333;
+    margin-top: 10px;
+    padding: 1px;
+}
 .bloc {
     width: 100%;
     clear: both;
