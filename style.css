@@ -20,6 +20,7 @@ a:hover {
 .center-block{
     width: 150px; height: 150px;
 }
+
 .slogan {
     color: white;
     font-size: 1.7em;
@@ -790,6 +791,9 @@ blockquote p {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+}
+#bloc-6 {
+    background-color: #99593b;
 }
 
 .tc-white {
