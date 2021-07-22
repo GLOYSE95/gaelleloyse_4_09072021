@@ -141,7 +141,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white;
+    color: #333;
 }
 
 .d-bloc .a-btn:hover,
@@ -699,7 +699,7 @@ h2, h3, label, .btn, a {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -797,7 +797,7 @@ blockquote p {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333;
     margin : auto;
     margin-top: 50px;
 }
